@@ -4,11 +4,224 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>OpenFit</title>
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-  
+  <section class="fitnes">
+    <div class="container">
+      <div class="black"></div>
+      <div class="gym-wrapper">
+      <img class="gym" src="./images/fitness/gym.png" alt="gym" >
+      <img class="gym-mask" src="./images/fitness/mask.png" alt="mask" >
+    </div>
+      <header class="header">
+        <img class="logo" src="./images/header/logo.png" alt="logo">
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__list-item"><p>О нас</p></li>
+            <li class="nav__list-item">
+              <p>Тренировки</p>
+              <img class="nav__arrow" src="./images/header/arrow-white.png" alt="arrow-white" >
+            </li>
+            <li class="nav__list-item">
+              <p>Питани<span class="nav__list-item--black">е</span></p>
+              <img class="nav__arrow" src="./images/header/arrow-black.png" alt="arrow-black" >
+            </li>
+            <li class="nav__list-item nav__list-item--black">
+              <p>Упражнения</p>
+              <img class="nav__arrow" src="./images/header/arrow-black.png" alt="arrow-black" >
+            </li>
+            <li class="nav__list-item nav__list-item--black">Отзывы</li>
+            <li class="nav__list-item nav__list-item--black">Контакты</li>
+          </ul>
+        </nav>
+      </header>
+      <h1 class="main-title">
+        ХОЧЕШЬ ПОЛНОЦЕННЫЙ <span>ФИТНЕС-ЦЕНТР</span><br> НА СВЕЖЕМ ВОЗДУХЕ?
+      </h1>
+      <button class="orange-btn">ХОЧУ ЗАНИМАТЬСЯ</button>
+    </div>
+  </section>
+  <section class="cards">
+    <div class="container">
+      <h2 class="cards__title">
+        МЕЧТАЕШЬ О <span>КАЧЕСТВЕННЫХ</span> ЗАНЯТИЯХ СПОРТОМ? 
+      </h2>
+      <div class="cards__descr">
+        Предлагаем тренироваться на свежем воздухе с возможностью использования переменной нагрузки. 
+      </div>
+      <div class="cards__wrapper">
+        <div class="cards__wrapper-item">
+          <div class="cards__wrapper-images">
+            <img class="cards__wrapper-img" src="./images/cards/body.png" alt="body" >
+            <img class="cards__wrapper-orange" src="./images/cards/orange.png" alt="orange">
+          </div>
+          <div class="cards__wrapper-text">Бодибилдинг</div>
+          <div class="cards__wrapper-line"></div>
+        </div>
+        <div class="cards__wrapper-item">
+          <div class="cards__wrapper-images">
+            <img class="cards__wrapper-img" src="./images/cards/workout.png" alt="workout" >
+            <img class="cards__wrapper-orange" src="./images/cards/orange.png" alt="orange">
+          </div>
+          <div class="cards__wrapper-text">Воркаут</div>
+          <div class="cards__wrapper-line"></div>
+        </div>
+        <div class="cards__wrapper-item">
+          <div class="cards__wrapper-images">
+            <img class="cards__wrapper-img" src="./images/cards/crossfit.png" alt="crossfit" >
+            <img class="cards__wrapper-orange" src="./images/cards/orange.png" alt="orange">
+          </div>
+          <div class="cards__wrapper-text">Кросс-фит</div>
+          <div class="cards__wrapper-line"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="about">
+    <div class="container">
+      <img class="about__img" src="./images/about/about.png" alt="about" >
+      <h2 class="about__title">АНАЛОГ ТРЕНАЖЕРНОМУ ЗАЛУ <span>СУЩЕСТВУЕТ!</span></h2>
+      <div class="about__descr">
+        <p class="about__descr-up">Уличные фитнес-комплексы от компании OpenFit были разработаны людьми, фанатеющими от спорта.</p>
+        <p class="about__descr-bot">Основатель компании Максим Семёнов посвятил 34 года своей жизни спорту, пройдя путь от закомплексованного болезненного подростка <br>до спортсмена-универсала, освоившего<br> ролики и велосипед, скалолазание и слеклайн, прыгавшего роупджампинг с крыш небоскребов и парашютом, поднимавшегося на Эльбрус и Говерлу, при этом всегда находясь в отличной физической форме</p>
+      </div>
+      <div class="orange-btn">ЗАКАЗАТЬ КОМПЛЕКС</div>
+    </div>
+  </section>
+  <section class="openfit">
+    <div class="container">
+      <div class="openfit__black"></div>
+      <img class="openfit__img" src="./images/openfit/openfit.png" alt="openfit" >
+      <div class="openfit__wrapper">
+        <h2 class="openfit__title">Питание для набора массы тела</h2>
+        <div class="openfit__divider"></div>
+        <div class="openfit__descr">
+          “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”
+        </div>
+        <div class="orange-btn">ПОДРОБНЕЕ</div>
+      </div>
+    </div>
+  </section>
+  <section class="contact">
+    <div class="container">
+      <img class="contact__bigarrow" src="./images/contact/big-arrow.png" alt="bigarrow" >
+      <img class="contact__img" src="./images/contact/contact.png" alt="contact" >
+      <div class="contact__title"><span>СВЯЗАТЬСЯ</span> С НАМИ</div>
+      <form class="contact__form" action="submit" >
+        <div class="contact__form-item">
+          <label class="contact__label" for="name">Имя</label>
+          <input class="contact__input" id="name" type="text" placeholder="Как Вас зовут?" >
+        </div>
+        <div class="contact__form-item">
+          <label class="contact__label" for="phone">Телефон</label>
+          <input class="contact__input" id="phone" type="text" placeholder="Ваш номер телефона" >
+        </div>
+        <div class="contact__form-item">
+          <label class="contact__label" for="name">E-mail</label>
+          <input class="contact__input" id="name" type="email" placeholder="Ваш e-mail" >
+        </div>
+      </form>
+      <div class="orange-btn">ЗАКАЗАТЬ КОМПЛЕКС</div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <div class="footer__content">
+          <img class="footer__logo" src="./images/header/logo.png" alt="logo" >
+          <div class="footer__item">
+            <a class="footer__link-title" href="#" >О нас</a>
+          </div>
+          <div class="footer__item">
+            <a class="footer__link-title" href="#" >Наши услуги</a>
+            <a class="footer__link" href="#" >Фитнес-комплекс</a>
+            <a class="footer__link" href="#" >Дополнительные товары</a>
+            <a class="footer__link" href="#" >Тренировки</a>
+            <a class="footer__link" href="#" >Питание</a>
+            <a class="footer__link" href="#" >Упражнения</a>
+          </div>
+          <div class="footer__item">
+            <a class="footer__link-title" href="#" >Отзывы</a>
+          </div>
+          <div class="footer__item">
+            <a class="footer__link-title" href="#" >Контакты</a>
+            <div class="footer__phones">
+              <div class="footer__phones-item">
+                <svg class="footer__phones-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20.5141 16.8322L18.0392 14.2714C18.0369 14.269 18.0345 14.2667 18.0322 14.2643C17.3452 13.5774 16.2334 13.5773 15.5465 14.2643L14.4165 15.3942C13.8962 15.9146 13.0539 15.9147 12.5334 15.3942C12.5332 15.394 12.533 15.3937 12.5327 15.3935L8.60334 11.557C8.08295 11.0366 8.08287 10.1943 8.60334 9.6739L9.73322 8.54402C10.4186 7.85871 10.4186 6.7436 9.73322 6.05829L7.24748 3.57255C6.56213 2.88728 5.44706 2.88728 4.76175 3.57255C4.76151 3.57278 3.933 4.40134 3.93319 4.4011C3.933 4.40134 3.85808 4.47622 3.85788 4.47645C1.38101 6.95328 1.38011 10.9624 3.85827 13.4405L10.6503 20.1397C13.1217 22.611 17.124 22.6202 19.6053 20.1484C19.6189 20.1358 20.497 19.327 20.5101 19.3139C21.1941 18.6299 21.1954 17.5178 20.5141 16.8322ZM5.59034 4.4011C5.81877 4.17266 6.19045 4.17266 6.41889 4.4011L8.90463 6.88684C9.13361 7.11586 9.13365 7.48641 8.90463 7.71543L8.49037 8.12969L5.17604 4.8154L5.59034 4.4011ZM11.4785 19.3107L4.68643 12.6116C2.77245 10.6976 2.68167 7.67938 4.36311 5.65961L7.6658 8.9623C6.80077 9.94437 6.83674 11.4476 7.77549 12.3863L11.7056 16.2235C12.6449 17.1621 14.1433 17.2007 15.1282 16.3318L18.4307 19.6342C16.391 21.3286 13.3909 21.2231 11.4785 19.3107ZM19.6885 18.4783L19.2947 18.8411L15.9607 15.5071L16.375 15.0929C16.6032 14.8647 16.9716 14.864 17.2007 15.0899C17.2052 15.0947 19.6769 17.6521 19.6815 17.6567C19.9077 17.8829 19.91 18.2493 19.6885 18.4783Z" fill="white"/>
+                  <path d="M12.0397 1.99927C11.7161 1.99927 11.4538 2.26161 11.4538 2.58516C11.4538 2.90872 11.7161 3.17106 12.0397 3.17106C16.8856 3.17106 20.8281 7.11352 20.8281 11.9594C20.8281 12.283 21.0904 12.5453 21.414 12.5453C21.7375 12.5453 21.9999 12.283 21.9999 11.9594C21.9999 6.45442 17.5452 1.99927 12.0397 1.99927Z" fill="white"/>
+                  <path d="M12.0397 4.3429C11.7161 4.3429 11.4538 4.60524 11.4538 4.92879C11.4538 5.25235 11.7161 5.51469 12.0397 5.51469C15.5934 5.51469 18.4845 8.40581 18.4845 11.9595C18.4845 12.2831 18.7469 12.5454 19.0704 12.5454C19.394 12.5454 19.6563 12.2831 19.6563 11.9595C19.6563 7.75972 16.2395 4.3429 12.0397 4.3429Z" fill="white"/>
+                  <path d="M12.0397 6.68652C11.7161 6.68652 11.4538 6.94887 11.4538 7.27242C11.4538 7.59597 11.7161 7.85832 12.0397 7.85832C14.3011 7.85832 16.1409 9.69811 16.1409 11.9595C16.1409 12.2831 16.4033 12.5454 16.7268 12.5454C17.0504 12.5454 17.3127 12.2831 17.3127 11.9595C17.3127 9.05198 14.9473 6.68652 12.0397 6.68652Z" fill="white"/>
+                  <g filter="url(#filter0_d)">
+                  <path d="M12.0397 9.03003C11.7161 9.03003 11.4538 9.29237 11.4538 9.61592C11.4538 9.93948 11.7161 10.2018 12.0397 10.2018C13.0089 10.2018 13.7974 10.9903 13.7974 11.9595C13.7974 12.2831 14.0597 12.5454 14.3833 12.5454C14.7068 12.5454 14.9692 12.2831 14.9692 11.9595C14.9691 10.3442 13.655 9.03003 12.0397 9.03003Z" fill="white"/>
+                  </g>
+                  <defs>
+                  <filter id="filter0_d" x="7.4538" y="9.03003" width="11.5154" height="11.5154" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                  <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                  <feOffset dy="4"/>
+                  <feGaussianBlur stdDeviation="2"/>
+                  <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                  <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                  <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+                  </filter>
+                  </defs>
+                </svg>
+              </div>
+              <div class="footer__phones-item">
+                <a class="footer__link-title" href="#" >+380 (067) 725 13 29</a>
+                <a class="footer__link-title" href="#" >+380 (066) 109 11 19</a>
+              </div>
+            </div>
+            <div class="footer__phones footer__phones--margin">
+              <div class="footer__phones-item">
+                <svg class="footer__phones-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3.95652 5H20.0435C21.1224 5 22 5.87875 22 6.95652V17.5218C22 18.6007 21.1212 19.4783 20.0435 19.4783H3.95652C2.87926 19.4783 2 18.6012 2 17.5218V6.95652C2 5.87914 2.87723 5 3.95652 5ZM4.00926 6.30438C4.34105 6.63617 11.3089 14.604 11.5388 14.834C11.7938 15.0889 12.2062 15.0889 12.4612 14.834C12.6913 14.6038 19.6591 6.63602 19.9907 6.30438H4.00926ZM20.6957 17.469V7.44406L16.1832 12.9565L20.6957 17.469ZM19.556 18.1739L15.2609 13.8788L13.3835 15.7562C12.6208 16.519 11.3795 16.5191 10.6166 15.7562L8.73918 13.8788L4.44406 18.1739H19.556ZM3.30434 17.469L7.81684 12.9565L3.30437 7.44406L3.30434 17.469Z" fill="white"/>
+                </svg>
+              </div>
+              <div class="footer__phones-item">
+                <a class="footer__link" href="#" >v.filipchev@gmail.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__social">
+          <div class="footer__social-item">
+            <svg class="footer__social-icon" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M14.1241 27.4077H14.2241V27.3077V18.421V18.321H14.1241H11.2944V15.5913H14.1241H14.2241V15.4913V11.8292C14.2241 9.86508 15.8221 8.26705 17.7862 8.26705H21.3483V10.9967H18.5186C17.6556 10.9967 16.9538 11.6986 16.9538 12.5616V15.4913V15.5913H17.0538H21.1981L20.7431 18.321H17.0538H16.9538V18.421V27.3077V27.4077H17.0538H23.6456C25.7201 27.4077 27.4077 25.7201 27.4077 23.6456V5.96979C27.4077 3.89525 25.7201 2.20768 23.6456 2.20768H5.96979C3.89525 2.20768 2.20768 3.89525 2.20768 5.96979V23.6456C2.20768 25.7201 3.89525 27.4077 5.96979 27.4077H14.1241ZM23.0453 13.9264H18.6186V12.6616H22.9131H23.0131V12.5616V6.70221V6.60221H22.9131H17.7862C14.9039 6.60221 12.5592 8.94686 12.5592 11.8292V13.9264H9.72955H9.62955V14.0264V19.8858V19.9858H9.72955H12.5592V25.7428H5.96979C4.81347 25.7428 3.87252 24.8019 3.87252 23.6456V5.96979C3.87252 4.81347 4.81347 3.87252 5.96979 3.87252H23.6456C24.8019 3.87252 25.7428 4.81347 25.7428 5.96979V23.6456C25.7428 24.8019 24.8019 25.7428 23.6456 25.7428H18.6186V19.9858H22.0688H22.1535L22.1674 19.9022L23.144 14.0429L23.1634 13.9264H23.0453Z" fill="white" stroke="white" stroke-width="0.2"/>
+            </svg>
+          </div>
+          <div class="footer__social-item"> 
+            <svg class="footer__social-icon" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="3.00774" y="3.00762" width="23.6" height="23.6" rx="2.3" stroke="white" stroke-width="1.4"/>
+            <path d="M14.8077 8.36523C11.2556 8.36523 8.36584 11.255 8.36584 14.8071C8.36584 18.3591 11.2556 21.2487 14.8077 21.2487C18.3598 21.2487 21.2496 18.3591 21.2496 14.8071C21.2496 11.255 18.3598 8.36523 14.8077 8.36523ZM14.8077 19.0304C12.4788 19.0304 10.584 17.1358 10.584 14.807C10.584 12.4779 12.4787 10.5832 14.8077 10.5832C17.1367 10.5832 19.0315 12.4779 19.0315 14.807C19.0315 17.1358 17.1366 19.0304 14.8077 19.0304Z" stroke="white" stroke-width="1.2"/>
+            <path d="M20.7939 7.38789L20.794 7.38789L20.796 7.38581C20.9843 7.19666 21.2508 7.08633 21.5198 7.08633C21.7907 7.08633 22.0571 7.19691 22.245 7.38571L22.245 7.38572L22.2471 7.38779C22.4358 7.57566 22.5464 7.84207 22.5464 8.11295C22.5464 8.38156 22.4364 8.6485 22.2465 8.83864C22.0548 9.0291 21.7884 9.13957 21.5198 9.13957C21.2519 9.13957 20.9845 9.02855 20.7951 8.83915C20.6039 8.64796 20.4932 8.38053 20.4932 8.11295C20.4932 7.84334 20.6042 7.57661 20.7939 7.38789Z" stroke="white" stroke-width="1.2"/>
+          </svg>
+        </div>
+          <div class="footer__social-item">
+            <svg class="footer__social-icon" width="29" height="20" viewBox="0 0 29 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M26.9661 3.23717L26.9668 3.23976C27.2487 4.26935 27.3922 5.90588 27.4618 7.3298C27.4962 8.03245 27.5119 8.66773 27.5191 9.12738C27.5227 9.35707 27.5241 9.54256 27.5246 9.67027C27.5249 9.73411 27.525 9.78349 27.5249 9.8167L27.5249 9.85418L27.5248 9.86343L27.5248 9.8656L27.5248 9.86607L27.5248 9.86612V9.86915V9.86921V9.86969L27.5248 9.87187L27.5248 9.8811L27.5247 9.91845C27.5246 9.95154 27.5243 10.0007 27.5237 10.0643C27.5226 10.1915 27.5204 10.3762 27.5159 10.6049C27.5069 11.0626 27.489 11.6953 27.4532 12.3955C27.3808 13.8126 27.2376 15.4458 26.966 16.4794C26.6969 17.4763 25.9094 18.2638 24.9124 18.5328C24.4232 18.6613 23.5139 18.7674 22.3758 18.8491C21.2531 18.9297 19.9558 18.9837 18.7217 19.0198C17.4886 19.0559 16.3234 19.0739 15.4661 19.0829C15.0376 19.0875 14.6863 19.0897 14.4423 19.0908C14.3203 19.0914 14.2252 19.0917 14.1606 19.0918L14.0872 19.0919L14.0686 19.092L14.0639 19.092H14.0628H14.0626L14.0625 19.692L14.0624 19.092H14.0622H14.0611L14.0565 19.092L14.0379 19.0919L13.9647 19.0918C13.9003 19.0917 13.8054 19.0914 13.6838 19.0908C13.4404 19.0896 13.09 19.0873 12.6624 19.0826C11.807 19.0732 10.644 19.0544 9.41253 19.0169C8.18006 18.9794 6.88382 18.9233 5.76039 18.8395C4.62035 18.7545 3.70849 18.6441 3.21501 18.5105L3.21415 18.5102C2.21609 18.2415 1.4279 17.4534 1.1588 16.4556C0.887446 15.4347 0.744122 13.8021 0.671619 12.3811C0.63582 11.6795 0.617898 11.0446 0.608936 10.585C0.604457 10.3554 0.602223 10.1699 0.601108 10.0421C0.600551 9.97822 0.600274 9.9288 0.600136 9.89554L0.600016 9.85799L0.600002 9.84871L0.6 9.84652L0.6 9.84604V9.846V9.84596V9.84592L0.6 9.84545L0.600002 9.84327L0.600016 9.83404L0.600136 9.79669C0.600274 9.76359 0.600551 9.71441 0.601108 9.65083C0.602223 9.52365 0.604457 9.33895 0.608935 9.11022C0.617896 8.65249 0.635818 8.01974 0.671616 7.31955C0.74407 5.90238 0.887305 4.26914 1.159 3.23566C1.42815 2.23743 2.24008 1.42706 3.21372 1.1588C3.70332 1.03046 4.61185 0.924504 5.74884 0.842876C6.8716 0.762269 8.16888 0.708259 9.40293 0.672163C10.636 0.636095 11.8013 0.618046 12.6586 0.609019C13.0871 0.604507 13.4384 0.602252 13.6824 0.601125C13.8043 0.600562 13.8995 0.600281 13.9641 0.60014L14.0375 0.600017L14.0561 0.600002L14.0607 0.6L14.0618 0.6H14.0621L14.0622 0L14.0622 0.6L14.0625 0.6L14.0636 0.6L14.0682 0.600002L14.0868 0.600018L14.1602 0.600146C14.2247 0.600291 14.3199 0.600584 14.4419 0.601169C14.6858 0.60234 15.0371 0.604684 15.4655 0.609373C16.3228 0.618755 17.4879 0.637513 18.7209 0.674996C19.9548 0.71251 21.2518 0.768636 22.3741 0.852385C23.5135 0.93741 24.4215 1.04772 24.9083 1.18092L24.9107 1.18155C25.909 1.4504 26.6976 2.23893 26.9661 3.23717ZM10.6593 14.0623V15.1003L11.5587 14.5823L18.8794 10.3659L19.7821 9.84598L18.8794 9.32605L11.5587 5.1097L10.6593 4.59166V5.62963V14.0623Z" stroke="white" stroke-width="1.2"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__divider"></div>
+    <div class="container">
+      <div class="footer__copyright">
+        <div class="footer__copyright-item">
+          <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9 17.1127C6.99671 17.1127 5.11324 16.3036 3.69669 14.8344C2.28014 13.3653 1.5 11.4119 1.5 9.33421C1.5 7.25654 2.28014 5.30313 3.69669 3.83399C5.11324 2.36484 6.99671 1.55573 9 1.55573C11.0033 1.55573 12.8868 2.36484 14.3033 3.83399C15.7199 5.30313 16.5 7.25654 16.5 9.33421C16.5 11.4119 15.7199 13.3653 14.3033 14.8344C12.8868 16.3036 11.0033 17.1127 9 17.1127ZM9 2.77111C5.5107 2.77111 2.67188 5.71535 2.67188 9.33421C2.67188 12.9531 5.5107 15.8973 9 15.8973C12.4893 15.8973 15.3281 12.9531 15.3281 9.33421C15.3281 5.71535 12.4893 2.77111 9 2.77111ZM12.0867 12.5355L11.258 11.6761C10.0129 12.9674 7.98708 12.9674 6.74197 11.6761C5.49685 10.3847 5.49685 8.28369 6.74197 6.99234C7.98708 5.70098 10.0129 5.70098 11.258 6.99234L12.0867 6.1329C10.3846 4.36774 7.61526 4.36774 5.9133 6.1329C4.21133 7.89818 4.21133 10.7704 5.9133 12.5355C6.76428 13.4181 7.88214 13.8594 9 13.8594C10.1177 13.8594 11.2357 13.4181 12.0867 12.5355Z" fill="white"/>
+            </svg>
+        </div>
+        <div class="footer__copyright-item">
+          OpenFit, 2020. Все права зашишены.
+        </div>
+      </div>
+    </div>
+  </footer>
   <script src="js/script.js"></script>
 </body>
 </html>

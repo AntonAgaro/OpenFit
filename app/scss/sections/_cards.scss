@@ -1,0 +1,70 @@
+.cards {
+  padding-top: 204px;
+
+  &__title {
+    max-width: 753px;
+    font-family: Segoe WP;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 55px;
+    letter-spacing: 0.02em;
+    color: #000000;
+
+    span {
+      color: #FEA904;
+    }
+  }
+
+  &__descr {
+    margin-top: 56px;
+    width: 560px;
+    font-family: Geometria Regular;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #000000;
+  }
+
+  &__wrapper {
+    margin-top: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+  }
+
+    &__item {
+      width: 347px
+    }
+
+    &__wrapper-images {
+      position: relative;
+      height: 197px;
+    }
+
+    &__wrapper-orange {
+      position: absolute;
+      z-index: -1;
+      bottom: -10px;
+      left: -10px;
+    }
+
+    &__wrapper-text {
+      margin-top: 20px;
+      font-family: Geometria Medium;
+      font-weight: 500;
+      font-size: 22px;
+      text-align: center;
+      color: #000000;
+    }
+
+    &__wrapper-line {
+      margin: 0 auto;
+      margin-top: 5px;
+      width: 76px;
+      height: 1px;
+      background: #FEA904;
+    }
+}

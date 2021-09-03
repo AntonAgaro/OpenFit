@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  gap: 56px;
+}
+
+.logo {
+  z-index: 10;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: flex-start;
+  gap: 34px;
+}
+
+.nav {
+  z-index: 10;
+}
+
+.nav__list-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 7px;
+  font-family: Geometria Regular;
+  font-weight: 500;
+  font-size: 22px;
+  color: #FFFFFF;
+  cursor: pointer;
+
+  &--black {
+    color: #000000;
+  }
+}
+
+.nav__arrow {
+  width: 12px;
+  height: 7px;
+}

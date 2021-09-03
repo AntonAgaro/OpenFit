@@ -1,0 +1,48 @@
+.fitnes {
+  padding-top: 50px;
+  background: #FFFFFF;
+}
+
+.black {
+  position: absolute;
+  z-index: 1;
+  top: -50px;
+  left: -150px;
+  width: 807px;
+  height: 628px;
+  background: #000000;
+}
+
+.gym-wrapper {
+  position: absolute;
+  z-index: 10;
+  top: 9px;
+  right: -150px;
+}
+.gym-mask {
+  position: absolute;
+  bottom: 81px;
+  left: 73px;
+  z-index: 11;
+}
+
+.main-title {
+  margin-top: 105.6px;
+  margin-bottom: 60px;
+  position: relative;
+  z-index: 10;
+  width: 560px;
+  font-family: Segoe WP Black;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 42px;
+  line-height: 55px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+
+  span {
+    color: #FEA904;
+  }
+
+  
+}

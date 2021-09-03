@@ -1,0 +1,69 @@
+.contact {
+  padding-top: 149px;
+  padding-bottom: 173px;
+
+  &__img {
+    width: 809px;
+    position: absolute;
+    z-index: -1;
+    top: -59px;
+    right: -150px;
+  }
+
+  &__bigarrow {
+    position: absolute;
+    right: 8px;
+    bottom: -144px;
+    cursor: pointer;
+  }
+
+  &__title {
+    width: 454px;
+    font-family: Segoe WP Black;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+    
+    span {
+      color: #FEA904;
+    }    
+  }
+
+  &__form {
+    margin-top: 50px;
+    margin-bottom: 48px;
+    display: flex;
+    flex-flow: column;
+    gap: 30px;
+  }
+
+  &__form-item {
+    display: flex;
+    flex-flow: column;
+  }
+
+  &__label {
+    margin-left: 10px;
+    font-family: Geometria Regular;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+  }
+
+  &__input {
+    width: 270px;
+    height: 46px;
+    padding: 11px 10px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    outline: none;
+    font-family: Geometria Regular;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+  }
+}

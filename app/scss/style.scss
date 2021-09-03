@@ -4,3 +4,14 @@
 @import './global/global';
 @import './global/mixins';
 
+//blocks
+@import './blocks/header';
+@import './blocks/button';
+@import './blocks/footer';
+
+//sections
+@import './sections/fitnes';
+@import './sections/cards';
+@import './sections/about';
+@import './sections/openfit';
+@import './sections/contact';
