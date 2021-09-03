@@ -87,3 +87,45 @@
     color: #FFFFFF;
   }
 }
+
+@media (max-width: 500px) {
+  .footer {
+    height: auto;
+
+    &__wrapper {
+      flex-flow: column;
+      gap: 20px;
+    }
+
+    &__content {
+      align-items: center;
+      flex-flow: column;
+      gap: 20px;
+    }
+
+    &__link {
+      font-size: 14px;
+    }
+  
+    &__link-title {
+      font-size: 16px;
+    }
+
+    &__social {
+      height: 30px;
+      flex-flow: row;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+    }
+
+    &__item {
+      align-items: center;
+    }
+
+    &__copyright {
+      font-size: 12;
+    }
+  }
+
+}

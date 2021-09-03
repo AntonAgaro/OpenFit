@@ -13,3 +13,13 @@
   color: #FFFFFF;
   cursor: pointer;
 }
+
+@media (max-width: 500px)  {
+  .orange-btn {
+    display: block;
+    margin: 0 auto;
+    width: 170px;
+    font-size: 12px;
+  }
+
+}

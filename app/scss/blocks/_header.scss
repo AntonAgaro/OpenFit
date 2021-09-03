@@ -37,3 +37,31 @@
   width: 12px;
   height: 7px;
 }
+
+@media (max-width: 500px) {
+  .header {
+    align-items: center;
+    flex-flow: column;
+    gap: 20px
+  }
+
+  .nav__list {
+    gap: 5px;
+    color:#FFFFFF;
+  }
+
+  .nav__list-item {
+    font-size: 10px;
+    &--black {
+      color:#FFFFFF;
+    }
+  }
+
+  .nav__arrow {
+    display: none;
+  }
+
+  .logo {
+    width: 173px;
+  }
+}

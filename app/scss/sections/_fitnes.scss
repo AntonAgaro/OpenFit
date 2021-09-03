@@ -8,7 +8,7 @@
   z-index: 1;
   top: -50px;
   left: -150px;
-  width: 807px;
+  width: 806px;
   height: 628px;
   background: #000000;
 }
@@ -44,5 +44,25 @@
     color: #FEA904;
   }
 
-  
+}
+
+@media (max-width: 500px)  {
+  .gym-wrapper {
+    display: none;
+  }
+
+  .black {
+    height: 400px;
+    // width: 100%;
+  }
+
+  .main-title {
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 260px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 27px;  
+  }
 }

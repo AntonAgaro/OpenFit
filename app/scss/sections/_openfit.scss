@@ -53,3 +53,28 @@
     color: #FFFFFF;
   }
 }
+
+@media (max-width: 500px) {
+  .openfit {
+    padding-top: 50px;
+
+    &__img {
+      display: none;
+    }
+
+    &__title {
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    &__divider {
+      margin: 10px auto;
+    }
+
+    &__descr {
+      margin: 30px auto;
+      width: 260px;
+      text-align: center;
+    }
+  }
+}
